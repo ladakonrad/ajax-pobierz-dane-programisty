@@ -36,7 +36,7 @@ function ajax(method, url) {
 
 
                 var div = document.createElement('div');
-                div.getAttribute('id', 'dane-programisty');
+                $('div').attr('id', 'dane-programisty');
 
                 var parName = document.createElement('p');
                 parName.innerText = 'Imię: ' + jsonData.imie;
